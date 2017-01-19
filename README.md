@@ -51,6 +51,10 @@ there.
 
 ![smiley face identicon](https://github.com/identicons/marnix.png)
 
+the number of people who had the above identicon:
+ - 760, when github userbase was 25 million
+ - 932, when github userbase hits 30 million users
+
 credits
 -------
  - [stewartlord/identicon.js](https://github.com/stewartlord/identicon.js)
