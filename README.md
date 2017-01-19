@@ -14,6 +14,11 @@ howto
 ./hashgen.py > hashes
 ```
 
+ - the generated hashes are of the format
+```
+<md5sum>	<userid>
+```
+
  - install requests
 ```bash
 pip install requests
@@ -30,3 +35,22 @@ pip install requests
 grep -E $(./generate_regex.py) hashes
 grep -E $(./generate_regex.py username) hashes
 ```
+
+ - find username of user id by going to url
+```
+https://api.github.com/user/<userid>
+```
+
+example: [https://api.github.com/user/34610](https://api.github.com/user/34610)
+
+why?
+----
+
+to find out how many lucky people have the smiley face identicon. well, it began
+there.
+
+![smiley face identicon](https://github.com/identicons/marnix.png)
+
+credits
+-------
+ - [stewartlord/identicon.js](https://github.com/stewartlord/identicon.js)
