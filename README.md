@@ -19,7 +19,7 @@ howto
 pip install requests
 ```
 
- - generate regex from pattern.txt or username
+ - generate regex from pattern.json or username
 ```bash
 ./generate_regex.py
 ./generate_regex.py username
